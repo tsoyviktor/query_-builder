@@ -13,6 +13,7 @@ npm start
 open http://localhost:3000
 ```
 To run tests
+I haven't finished tests, only added skeleton UNIT test as an example which fails.
 ```
 npm test
 ```
