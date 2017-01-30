@@ -1,0 +1,80 @@
+h1 {
+  color: #009dff;
+  text-align: center;
+}
+
+.container_row {
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.container_row > div {
+  flex-grow: 1;
+}
+
+.container_row .block_header {
+  flex: 1 100%;
+  color: cadetblue;
+  font-weight: normal;
+}
+
+.body_container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.clause_group {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+
+  .operator {
+    hr {
+      display: none;
+    }
+  }
+}
+
+.or_condition {
+  margin: 10px 15px;
+}
+
+.clause_container {
+  > div {
+    text-align: center;
+  }
+}
+
+.and_condition {
+  margin-top: 10px;
+}
+
+.selection_options {
+  margin-bottom: 30px;
+}
+
+.result_query {
+  margin: 10px;
+  padding: 15px;
+}
+
+.error  {
+  position: relative;
+  bottom: 15px;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgb(244, 67, 54);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+// JSON PRETTIFY OVERWRITTEN STYLES
+
+.json-pretty {
+  //background: transparent;
+  padding: 10px;
+}
